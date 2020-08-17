@@ -10,6 +10,9 @@ frequency_4 = 0
 frequency_5 = 0 
 frequency_6 = 0 
 
+#to produce random data and get seoeone to have the
+#samevalue for testing then use seed.
+random.seed(300)
 
 for roll in range (6000000):
     value = random.randrange(1,7)
