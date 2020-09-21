@@ -66,6 +66,8 @@ user_profile = build_profile('albert','einstein',
                              field = 'physics')
 
 print(user_profile)
-
 #
 pizza2.make_pizza(16,'abc')
+
+pizza2.make_pizza(6,'abc','def' , 'fg')
+
